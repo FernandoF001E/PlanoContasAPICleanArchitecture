@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PlanoContasApi.Application", "PlanoContasApi.Application", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PlanoContasApi.Domain", "PlanoContasApi.Domain", "{EF52DADC-5761-4D2B-A4C3-6B8AB03D8DC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PlanoContasApi.Infrastructure", "PlanoContasApi.Infrastructure", "{B47D3B62-2A27-4E9F-9E92-3EF737C7E751}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PlanoContasApi.Web", "PlanoContasApi.Web", "{E176BABD-83FB-4443-9867-B1B976E29583}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanoContasApi.Application", "PlanoContasApi.Application\PlanoContasApi.Application.csproj", "{513BBB0F-8E16-4BF2-A05A-32F0DA091E19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanoContasApi.Domain", "PlanoContasApi.Domain\PlanoContasApi.Domain.csproj", "{DE67BD91-7A5C-4809-B5DE-80DF7A2EC511}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanoContasApi.Infrastructure", "PlanoContasApi.Infrastructure\PlanoContasApi.Infrastructure.csproj", "{7FB90E36-7760-43C9-BB79-BB57804C46B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanoContasApi.Web", "PlanoContasApi.Web\PlanoContasApi.Web.csproj", "{DA5A7ACE-3E7C-4C5C-945A-4E51D7BBB758}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{513BBB0F-8E16-4BF2-A05A-32F0DA091E19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{513BBB0F-8E16-4BF2-A05A-32F0DA091E19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{513BBB0F-8E16-4BF2-A05A-32F0DA091E19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{513BBB0F-8E16-4BF2-A05A-32F0DA091E19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE67BD91-7A5C-4809-B5DE-80DF7A2EC511}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE67BD91-7A5C-4809-B5DE-80DF7A2EC511}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE67BD91-7A5C-4809-B5DE-80DF7A2EC511}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE67BD91-7A5C-4809-B5DE-80DF7A2EC511}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FB90E36-7760-43C9-BB79-BB57804C46B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FB90E36-7760-43C9-BB79-BB57804C46B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FB90E36-7760-43C9-BB79-BB57804C46B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FB90E36-7760-43C9-BB79-BB57804C46B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA5A7ACE-3E7C-4C5C-945A-4E51D7BBB758}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA5A7ACE-3E7C-4C5C-945A-4E51D7BBB758}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA5A7ACE-3E7C-4C5C-945A-4E51D7BBB758}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA5A7ACE-3E7C-4C5C-945A-4E51D7BBB758}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{513BBB0F-8E16-4BF2-A05A-32F0DA091E19} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{DE67BD91-7A5C-4809-B5DE-80DF7A2EC511} = {EF52DADC-5761-4D2B-A4C3-6B8AB03D8DC8}
+		{7FB90E36-7760-43C9-BB79-BB57804C46B2} = {B47D3B62-2A27-4E9F-9E92-3EF737C7E751}
+		{DA5A7ACE-3E7C-4C5C-945A-4E51D7BBB758} = {E176BABD-83FB-4443-9867-B1B976E29583}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F22623C3-E62E-46C9-A4F8-EE81B910E122}
+	EndGlobalSection
+EndGlobal

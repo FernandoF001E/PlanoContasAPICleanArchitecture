@@ -1,0 +1,6 @@
+@PlanoContasApi.Web_HostAddress = http://localhost:5075
+
+GET {{PlanoContasApi.Web_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
